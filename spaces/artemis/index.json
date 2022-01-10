@@ -1,0 +1,28 @@
+{
+    "name": "Artemis",
+    "network": "1666600000",
+    "symbol": "MIS",
+    "strategies": [
+      {
+        "name": "erc20-balance-of",
+        "params": {
+          "address": "0xd74433b187cf0ba998ad9be3486b929c76815215",
+          "symbol": "MIS",
+          "decimals": 18
+        }
+      },
+      {
+        "name": "single-staking-vault-balanceof",
+        "params": {
+          "vaultAddress": "0x6aaea0a742056e5a6aa1a428a8ec403c1b964609"
+        }
+      }
+    ],
+    "members": [
+      "0x68E4c93bE75A64170b793B48836Af4635EeFD9E8"
+    ],
+    "filters": {
+      "defaultTab": "all",
+      "minScore": 0
+    }
+  }

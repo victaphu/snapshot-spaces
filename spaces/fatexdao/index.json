@@ -1,0 +1,26 @@
+{
+  "name": "FATExDAO",
+  "network": "1666600000",
+  "symbol": "FATE",
+  "strategies": [
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0x72d2f2d57CC5D3e78c456616E1d17e73e8848c3A",
+        "symbol": "FATE-GOV",
+        "decimals": 18
+      }
+    }
+  ],
+  "members": [
+    "0x05eEE03F9A3Fa10aAC2921451421A9f4e37EaBbc",
+    "0xE3AC7a0780344E41A90FE8b750bFAC521B0c1fFb",
+    "0xD8189e32771Ab8114f24eB5E3ACb5040BB8C7086",
+    "0x04b70E9Ef8B53B13455F42186C428E9fb0853Ba1",
+    "0xA359eA7b42a9a9b7CaE11d4F56a917fa4D09E92e"
+  ],
+  "filters": {
+    "defaultTab": "all",
+    "minScore": 0
+  }
+}
